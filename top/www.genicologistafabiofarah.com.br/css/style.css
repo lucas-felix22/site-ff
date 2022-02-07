@@ -1,0 +1,116 @@
+.header {
+    visibility: visible;
+    animation-name: flipInX;
+}
+
+.header h4 {
+    color: #562301;
+    font-size: 16px;
+}
+
+.header h4::after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    margin:5px 0;
+    background-color: #562301;
+    display: block;
+}
+
+.header_infos {
+    color: gray;
+    margin: 0;
+    font-size: 14px;
+}
+
+.header_logotipo, .footer_logotipo {
+    width: 200px;
+}
+
+.nav {
+    background-color: #1d1c1c;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f7f7;
+}
+
+.imagem_paginaInterna {
+    box-shadow: 0px 6px 10px #464646;
+    border: 6px solid #fefefe;
+}
+
+.redes {
+    width: 60px;
+    position: fixed;
+    top: 300px;
+    right: 0;
+    z-index: 100;
+    }
+
+.botoes_redes {
+    display: block;
+    padding: 10px;
+}
+
+.redes img {
+    width: 100%;
+}
+
+.redes .insta {
+    background: #bd3939;
+}
+
+.redes .whatsapp {
+    background: #32cd32;
+}
+
+.carrossel_titulo {
+    font-size: 40px;
+}
+
+.carrossel_descricao {
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+    color: #562301;
+}
+
+h2::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    margin:5px auto;
+    background-color: #562301;
+    display: block;
+
+}
+
+.contato_pedido h3 {
+    color: #562301;
+}
+
+a.btn-home {
+    background-color: #562301;
+    color: #fff;
+}
+
+a.btn-home:hover {
+    color: #fff;
+}
+
+#rodape {
+    background-color: #0e0d0d;
+}
+
+.footer-copyright {
+    background-color: #231a14;
+    color: white;
+}
+
+.footer-copyright a {
+    color: white;
+}
